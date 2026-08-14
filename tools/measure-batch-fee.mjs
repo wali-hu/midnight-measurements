@@ -13,7 +13,7 @@
 // measurement. Every capital figure in §5 rests on it: "an operator that batches well needs ~8x less
 // capital", 1,537,200 NIGHT dropping to 181,390. If the real curve is flatter the numbers are
 // pessimistic; if it is steeper, the entire operator economics are wrong in the direction that
-// matters, and nobody would find out until an operator ran out of DUST in production.
+// matters, and nobody would find out until an operator ran out of DUST on a live deployment.
 //
 // ─────────────────────────────────────────────────────────────────────────────
 // HOW IT IS MEASURED, AND WHAT THAT DOES AND DOES NOT PROVE

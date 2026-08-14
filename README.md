@@ -84,8 +84,8 @@ requests immediately - contract state is public and needs no wallet at all.
 emission is empty. Taking that first value gives you zero. On a 650s cold sync the real value
 arrives before anything asks; on a warm 9s sync it does not.
 
-> **A bug that appears only when things get *faster* is the one that reaches production.** Every
-> slow path hides it, development is always slow, and the first well-cached production run is where
+> **A bug that appears only when things get *faster* is the one that reaches a live deployment.** Every
+> slow path hides it, development is always slow, and the first well-cached live run is where
 > it detonates.
 
 ---
